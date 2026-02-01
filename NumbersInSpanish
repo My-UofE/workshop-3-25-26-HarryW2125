@@ -1,0 +1,25 @@
+public class NumbersInSpanish {
+    public static void main(String[] args) {
+       // read the first argument passed to the program
+       int number = Integer.parseInt(args[0]); 
+ 
+       if (number ==1) {
+         System.out.println("uno")
+       }
+       elif (number ==2) {
+         System.out.println("dos")
+       }
+       elif (number ==3) {
+         System.out.println("tres")
+       }
+       elif (number ==4){
+         System.out.println("cuatro")
+       }
+       elif (number ==5){
+         System.out.println("cinco")
+       }
+       else {
+         System.out.println("Sorry I do not know that")
+       }
+    }
+ }

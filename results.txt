@@ -5,6 +5,13 @@ Line 2 i++ means ... ok
 Line 3 ++i means ... ok
 PASSED: DemoIncrement.java
 ----
+javac AgeToGroup.java ... ok
+50 1 ... ok
+100 2 ... ok
+18 0 ... ok
+12 0 ... ok
+65 2 ... ok
+PASSED: AgeToGroup.java
 ----
 ----
 ----
@@ -13,4 +20,4 @@ PASSED: DemoIncrement.java
 ----
 ----
 --- RESULT: ---
-Your score is 1 / 7.5
+Your score is 2 / 7.5
